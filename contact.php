@@ -10,7 +10,10 @@
 						$email . "\n \n" . 
 						$msg;
 
+	if ($_POST['email'] != '' && $_POST['fullname']) {
 	mail($to,$subject,$message,$email);
 	header('Location: /');exit();
-	
+	}else {
+		return echo 'Please enter your name and email!';
+	}
 ?> 

@@ -185,6 +185,7 @@
 			
 			<section id="contact">
 				<div class="wrapper">
+					<!--
 					<form action="contact.php" method="post" target="_blank">
 						<fieldset>
 							<legend>Quick email</legend>
@@ -212,6 +213,7 @@
 							</ul>
 						</fieldset>
 					</form>
+					-->
 					<div class="secondary">
 						<h2>Contact</h2>
 						<hr />
